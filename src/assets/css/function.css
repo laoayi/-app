@@ -1,0 +1,11 @@
+.f-flexvw-vh {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+}
+.f-child {
+  flex-grow: 1;
+  overflow: scroll;
+}
